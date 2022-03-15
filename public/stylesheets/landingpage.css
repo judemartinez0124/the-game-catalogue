@@ -1,0 +1,26 @@
+#landing {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url('https://images.unsplash.com/photo-1617802690658-1173a812650d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#landing .display-1 {
+    color: #f8f9fa;
+    font-weight: 700;
+}
+#landing h2 {
+    color: #dee2e6;
+    font-weight: 100;
+    font-size: x-large;
+}
+#landing .btn {
+    color: #f8f9fa;  
+}
+#landing .btn:hover {
+    color: #f8f9fa;  
+    background: none;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

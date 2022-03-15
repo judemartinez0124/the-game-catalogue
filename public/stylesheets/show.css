@@ -1,0 +1,27 @@
+main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#btn {
+    background: #77726c;
+    color: #f8f9fa;
+}
+#delete {
+    background-color: #f94144;
+    color: #f8f9fa;
+}
+#edit {
+    background: #3a86ff;
+    color: #f8f9fa;
+}
+#card {
+    background: #e9e8e6;
+    color: #77726c;
+}
+#card .list-group-item {
+    background: #f8f9fa;
+    color: #77726c;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 3rem;
+} 

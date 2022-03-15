@@ -1,0 +1,48 @@
+main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#primbtn {
+    background: #f8f9fa;
+    color: #77726c;
+}
+#primbtn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#secbtn {
+    background: #77726c;
+    color: #f8f9fa;
+}
+#homecard {
+    background: #f8f9fa;
+    color: #77726c;
+}
+#homecard .card-header {
+    background: #e9e8e6;
+    color: #77726c;
+}
+#homecard .lead {
+    color: #9e988f;
+}
+#titletext {
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.gametitle {
+    font-weight: 400;
+    font-size: 3rem;
+}
+.info {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #aeaba4;
+}
+.dropdown-menu{
+    background: #f8f9fa;
+    color: #77726c;
+}
+.dropdown-item {
+    background: #f8f9fa;
+    color: #77726c;
+}
