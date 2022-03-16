@@ -1,0 +1,24 @@
+main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    color: #f8f9fa;
+    font-weight: 700;
+    font-size: 5rem;
+}
+#btn {
+    background-color: #40916c;
+    color: #f8f9fa;
+}
+#delete {
+    background-color: #f94144;
+    color: #f8f9fa;
+}
+#card {
+    background-color: #f8f9fa;
+    color: #77726c;
+}
+option {
+    background-color: #f8f9fa;
+    color: #77726c;
+}

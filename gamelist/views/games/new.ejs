@@ -1,0 +1,51 @@
+<% layout('layout/boilerplate') %>
+<link rel="stylesheet" href="/stylesheets/form.css"> 
+<h1 class="text-center mb-3 pt-2">CREATE NEW ENTRY</h1>
+<div id="card" class="card p-4 shadow-lg">
+    <form class="row g-3" action="/games" method="POST">
+        <div class="col-md-6">
+            <label class="form-label" for="title">Title</label>
+            <input class="form-control" type="text" name="game[title]" id="title">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label" for="developer">Developer</label>
+            <input class="form-control" type="text" name="game[developer]" id="developer">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label" for="release">Release Year</label>
+            <input class="form-control" type="number" name="game[release]" id="release">
+        </div>
+        <div class="col-md-6">
+            <label for="platform" class="form-label">Platform</label>
+            <select name="game[platform]" id="platform" class="form-select">
+                <option value="">Select a Platform...</option>
+                <% for(let platform of platforms){ %> 
+                    <option value="<%= platform %>"><%= platform %></option>
+                <% } %> 
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="genre" class="form-label">Genre</label>
+            <select name="game[genre]" id="genre" class="form-select">
+                <option value="">Select a Genre...</option>
+                <% for(let genre of genres){ %> 
+                    <option value="<%= genre %>"><%= genre %></option>
+                <% } %> 
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label" for="rating">Rating</label>
+        <input class="form-control" type="number" name="game[rating]" id="rating">
+        </div>
+        <div>
+            <label class="form-label" for="review">Review</label> <br>
+            <textarea class="form-control" name="game[review]" id="review" cols="30" rows="10"></textarea>
+        </div>
+        <div class="col-12">
+          <button id="btn" class="btn btn-lightshadow-md my-2 px-4 shadow">Add Entry</button>
+        </div>
+      </form>
+      <div>
+        <a id="delete" href="/games" class="btn btn-lightshadow-md my-2 px-4 shadow">Cancel</a>
+    </div>
+</div>
