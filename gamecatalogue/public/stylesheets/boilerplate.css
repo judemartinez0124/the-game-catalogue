@@ -1,0 +1,15 @@
+.mainbody{
+    background: #c5c4c3;
+}
+#wave{
+    position: absolute;
+    z-index: -1;
+}
+#maincontainer{
+    background: none;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+
+ 
